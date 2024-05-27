@@ -328,6 +328,7 @@
                     android:textSize="15dp" />
 
                 <TextView
+                    android:id="@+id/see_more_text_view"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="195dp"
@@ -349,6 +350,7 @@
                     android:orientation="horizontal">
 
                     <LinearLayout
+                        android:id="@+id/linearLayoutProduct"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginRight="15dp"

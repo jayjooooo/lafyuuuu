@@ -1,0 +1,819 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailActivity">
+
+    <ScrollView
+        android:layout_width="391dp"
+        android:layout_height="783dp"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp"
+        tools:ignore="MissingConstraints"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:paddingBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:paddingLeft="20dp"
+                android:paddingTop="20dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="15dp"
+                    app:srcCompat="@drawable/zzz" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/poppins_bold"
+                    android:text="Super Flash Sale"
+                    android:textColor="#223263"
+                    android:textSize="18dp"
+                    android:layout_marginRight="90dp"/>
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_gravity="center"
+                    app:srcCompat="@drawable/icons8_search_100" />
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="20dp"
+                    app:srcCompat="@drawable/icons8_ellipsis_30" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="266dp"
+                    android:layout_gravity="center"
+                    app:srcCompat="@drawable/bg2" />
+
+                <LinearLayout
+                    android:layout_marginTop="12dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+
+                    <TextView
+                        android:layout_marginLeft="13dp"
+                        android:id="@+id/textView6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins_bold"
+                        android:text="Nike Air Zoom Pegasus 36\nMiami"
+                        android:textColor="#223263"
+                        android:textSize="23dp" />
+
+                    <ImageView
+                        android:layout_marginLeft="40dp"
+                        android:layout_marginTop="7dp"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        app:srcCompat="@drawable/heart_regular" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginLeft="13dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        app:srcCompat="@drawable/icons8_star_48" />
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        app:srcCompat="@drawable/icons8_star_48" />
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        app:srcCompat="@drawable/icons8_star_48" />
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        app:srcCompat="@drawable/icons8_star_48" />
+                    <ImageView
+                        android:layout_gravity="center"
+                        android:layout_width="17dp"
+                        android:layout_height="17dp"
+                        app:srcCompat="@drawable/icons8_star_100" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_marginTop="17dp"
+                    android:layout_marginLeft="13dp"
+                    android:id="@+id/textView7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/poppins_bold"
+                    android:text="$299,43"
+                    android:textSize="22dp"
+                    android:textColor="#40BFFF" />
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="13dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginRight="13dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/poppins_bold"
+                    android:text="Select Size"
+                    android:textSize="16dp"
+                    android:textColor="#223263" />
+
+                <LinearLayout
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_marginRight="13dp"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:background="@drawable/rounded_corners"
+                        android:gravity="center">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/poppins_bold"
+                            android:text="6"
+                            android:textColor="#223263"
+                            android:textSize="15dp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_marginRight="13dp"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:background="@drawable/rounded_corners"
+                        android:gravity="center">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/poppins_bold"
+                            android:text="6.5"
+                            android:textColor="#223263"
+                            android:textSize="15dp" />
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_marginRight="13dp"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:background="@drawable/rounded_corners"
+                        android:gravity="center">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/poppins_bold"
+                            android:text="7"
+                            android:textColor="#223263"
+                            android:textSize="15dp" />
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_marginRight="13dp"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:background="@drawable/rounded_corners"
+                        android:gravity="center">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/poppins_bold"
+                            android:text="7.5"
+                            android:textColor="#223263"
+                            android:textSize="15dp" />
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_marginRight="13dp"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:background="@drawable/rounded_corners"
+                        android:gravity="center">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/poppins_bold"
+                            android:text="8"
+                            android:textColor="#223263"
+                            android:textSize="15dp" />
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:background="@drawable/rounded_corners"
+                        android:gravity="center">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/poppins_bold"
+                            android:text="8.5"
+                            android:textColor="#223263"
+                            android:textSize="15dp" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="13dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/poppins_bold"
+                    android:text="Select Color"
+                    android:textSize="16dp"
+                    android:textColor="#223263" />
+
+                <LinearLayout
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="8dp"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_marginRight="16dp"
+                        android:layout_width="45dp"
+                        android:layout_height="45dp"
+                        app:srcCompat="@drawable/yellow" />
+                    <ImageView
+                        android:layout_marginRight="16dp"
+                        android:layout_width="45dp"
+                        android:layout_height="45dp"
+                        app:srcCompat="@drawable/blue" />
+                    <ImageView
+                        android:layout_marginRight="16dp"
+                        android:layout_width="45dp"
+                        android:layout_height="45dp"
+                        app:srcCompat="@drawable/red" />
+                    <ImageView
+                        android:layout_marginRight="16dp"
+                        android:layout_width="45dp"
+                        android:layout_height="45dp"
+                        app:srcCompat="@drawable/green" />
+                    <ImageView
+                        android:layout_marginRight="16dp"
+                        android:layout_width="45dp"
+                        android:layout_height="45dp"
+                        app:srcCompat="@drawable/purple" />
+                    <ImageView
+                        android:layout_width="45dp"
+                        android:layout_height="45dp"
+                        app:srcCompat="@drawable/dark" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="25dp"
+                android:layout_marginRight="13dp"
+                android:layout_marginLeft="13dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/poppins_bold"
+                    android:text="Specification"
+                    android:textSize="16dp"
+                    android:textColor="#223263" />
+
+                <LinearLayout
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="13dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins_semibold"
+                        android:text="Shown:"
+                        android:textColor="#223263"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins"
+                        android:gravity="end"
+                        android:text="Laser\nBlue/Anthracite/Watermelon/\nWhite"
+                        android:textColor="#9098B1"
+                        android:textSize="12dp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginTop="15dp"
+                    android:layout_marginRight="13dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins_semibold"
+                        android:text="Style:"
+                        android:textColor="#223263"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins"
+                        android:gravity="end"
+                        android:text="CD0113-400"
+                        android:textColor="#9098B1"
+                        android:textSize="12dp" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/poppins"
+                    android:text="The Nike Air Max 270 React ENG combines a\nfull-length React foam midsole with a 270 Max Air\nunit for unrivaled comfort and a striking visual\nexperience."
+                    android:textColor="#9098B1"
+                    android:textSize="12dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="13dp"
+                android:layout_marginLeft="13dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_marginRight="13dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins_bold"
+                        android:text="Review Product"
+                        android:textSize="16dp"
+                        android:textColor="#223263" />
+
+                    <TextView
+                        android:gravity="end"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins_bold"
+                        android:text="See More"
+                        android:textSize="16dp"
+                        android:textColor="#40BFFF" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="13dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_marginRight="20dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+
+                        <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            app:srcCompat="@drawable/icons8_star_48" />
+                        <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            app:srcCompat="@drawable/icons8_star_48" />
+                        <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            app:srcCompat="@drawable/icons8_star_48" />
+                        <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            app:srcCompat="@drawable/icons8_star_48" />
+                        <ImageView
+                            android:layout_gravity="center"
+                            android:layout_width="17dp"
+                            android:layout_height="17dp"
+                            app:srcCompat="@drawable/icons8_star_100" />
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_margin="2dp"
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins"
+                        android:text="4.5 (5 Review)"
+                        android:textSize="12dp"
+                        android:textColor="#9098B1" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginTop="15dp"
+                    android:layout_marginRight="13dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        app:srcCompat="@drawable/whatsapp_image_2024_05_27_at_13_17_20" />
+
+                    <LinearLayout
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="13dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/poppins_bold"
+                            android:text="James Lawson"
+                            android:textSize="16dp"
+                            android:textColor="#223263" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+
+                            <ImageView
+                                android:layout_width="20dp"
+                                android:layout_height="20dp"
+                                app:srcCompat="@drawable/icons8_star_48" />
+                            <ImageView
+                                android:layout_width="20dp"
+                                android:layout_height="20dp"
+                                app:srcCompat="@drawable/icons8_star_48" />
+                            <ImageView
+                                android:layout_width="20dp"
+                                android:layout_height="20dp"
+                                app:srcCompat="@drawable/icons8_star_48" />
+                            <ImageView
+                                android:layout_width="20dp"
+                                android:layout_height="20dp"
+                                app:srcCompat="@drawable/icons8_star_48" />
+                            <ImageView
+                                android:layout_gravity="center"
+                                android:layout_width="17dp"
+                                android:layout_height="17dp"
+                                app:srcCompat="@drawable/icons8_star_100" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_marginTop="16dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/poppins"
+                    android:text="air max are always very comfortable fit, clean and just perfect in every way. just the box was too small and scrunched the sneakers up a little bit, not sure if the box was always this small but the 90s are and will always be one of my favorites."
+                    android:textColor="#9098B1"
+                    android:textSize="12dp" />
+
+
+                <LinearLayout
+                    android:layout_marginTop="17dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+
+                    <ImageView
+                        android:layout_width="90dp"
+                        android:layout_height="90dp"
+                        app:srcCompat="@drawable/ads" />
+
+                    <ImageView
+                        android:layout_marginRight="13dp"
+                        android:layout_marginLeft="13dp"
+                        android:layout_width="90dp"
+                        android:layout_height="90dp"
+                        app:srcCompat="@drawable/comme_des_garcons_play_ivory_converse_red_heart_chuck_70_sneakers___beige___us_3___35_5" />
+                    <ImageView
+                        android:layout_width="88dp"
+                        android:layout_height="88dp"
+                        app:srcCompat="@drawable/cdg_x_converse" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_marginTop="17dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/poppins"
+                    android:text="December 10, 2016"
+                    android:textSize="12dp"
+                    android:textColor="#9098B1" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_marginLeft="13dp"
+                android:layout_marginTop="17dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_bold"
+                android:text="Review Product"
+                android:textSize="16dp"
+                android:textColor="#223263" />
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scrollbars="none">
+
+                <LinearLayout
+                    android:layout_marginTop="7dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="15dp"
+                        android:background="@drawable/border"
+                        android:orientation="vertical"
+                        android:padding="14dp">
+
+                        <ImageView
+                            android:layout_width="110dp"
+                            android:layout_height="110dp"
+                            android:src="@drawable/sad" />
+
+                        <TextView
+                            android:layout_marginTop="5dp"
+                            android:layout_width="110dp"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/poppins_bold"
+                            android:text="Adidas\nSamba"
+                            android:textColor="#223263"
+                            android:textSize="12dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/poppins_bold"
+                            android:text="$299,43"
+                            android:textColor="#40BFFF"
+                            android:textSize="10dp" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/poppins"
+                                android:text="$534,33"
+                                android:textColor="#9098B1"
+                                android:textSize="9dp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="7dp"
+                                android:fontFamily="@font/poppins_bold"
+                                android:text="24% Off"
+                                android:textColor="#FB7181"
+                                android:textSize="9dp" />
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="15dp"
+                        android:background="@drawable/border"
+                        android:orientation="vertical"
+                        android:padding="14dp">
+
+                        <ImageView
+                            android:layout_width="110dp"
+                            android:layout_height="110dp"
+                            android:src="@drawable/ads" />
+
+                        <TextView
+                            android:layout_marginTop="5dp"
+                            android:layout_width="110dp"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/poppins_bold"
+                            android:text="Converse x Commme"
+                            android:textColor="#223263"
+                            android:textSize="12dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/poppins_bold"
+                            android:text="$299,43"
+                            android:textColor="#40BFFF"
+                            android:textSize="10dp" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/poppins"
+                                android:text="$534,33"
+                                android:textColor="#9098B1"
+                                android:textSize="9dp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="7dp"
+                                android:fontFamily="@font/poppins_bold"
+                                android:text="24% Off"
+                                android:textColor="#FB7181"
+                                android:textSize="9dp" />
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/border"
+                        android:orientation="vertical"
+                        android:padding="14dp">
+
+                        <ImageView
+                            android:layout_width="110dp"
+                            android:layout_height="110dp"
+                            android:src="@drawable/the_flat_shoe_trend_i_m_buying_instead_of_heels_this_season" />
+
+                        <TextView
+                            android:layout_marginTop="5dp"
+                            android:layout_width="110dp"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/poppins_bold"
+                            android:text="Loafers\nWomen"
+                            android:textColor="#223263"
+                            android:textSize="12dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/poppins_bold"
+                            android:text="$299,43"
+                            android:textColor="#40BFFF"
+                            android:textSize="10dp" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/poppins"
+                                android:text="$534,33"
+                                android:textColor="#9098B1"
+                                android:textSize="9dp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="7dp"
+                                android:fontFamily="@font/poppins_bold"
+                                android:text="24% Off"
+                                android:textColor="#FB7181"
+                                android:textSize="9dp" />
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+            </HorizontalScrollView>
+            <Button
+                android:paddingTop="10dp"
+                android:layout_marginTop="35dp"
+                android:layout_marginRight="19dp"
+                android:layout_marginLeft="19dp"
+                android:id="@+id/button"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:fontFamily="@font/poppins_bold"
+                android:text="Add To Cart"
+                android:textSize="15dp"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:background="@drawable/rounded_button"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

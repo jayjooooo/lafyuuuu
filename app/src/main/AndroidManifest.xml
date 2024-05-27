@@ -13,6 +13,9 @@
         android:theme="@style/Theme.Lafyuu"
         tools:targetApi="31">
         <activity
+            android:name=".DetailActivity"
+            android:exported="false" />
+        <activity
             android:name=".FavoriteActivity"
             android:exported="false" />
         <activity

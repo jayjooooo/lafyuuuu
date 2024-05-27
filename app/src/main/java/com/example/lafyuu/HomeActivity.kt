@@ -4,6 +4,7 @@ import android.content.Intent
 import android.os.Bundle
 import android.widget.ImageView
 import android.widget.LinearLayout
+import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import com.google.android.material.navigation.NavigationBarView
@@ -52,6 +53,20 @@ class HomeActivity : AppCompatActivity() {
         val imageView: ImageView = findViewById(R.id.imageView)
         imageView.setOnClickListener {
             val intent = Intent(this, FavoriteActivity::class.java)
+            startActivity(intent)
+        }
+
+        // Add OnClickListener for LinearLayout to navigate to DetailActivity
+        val linearLayoutProduct: LinearLayout = findViewById(R.id.linearLayoutProduct)
+        linearLayoutProduct.setOnClickListener {
+            val intent = Intent(this, DetailActivity::class.java)
+            startActivity(intent)
+        }
+
+        // Add OnClickListener for TextView to navigate to SaleActivity
+        val seeMoreTextView: TextView = findViewById(R.id.see_more_text_view)
+        seeMoreTextView.setOnClickListener {
+            val intent = Intent(this, SaleActivity::class.java)
             startActivity(intent)
         }
     }
