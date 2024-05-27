@@ -1,0 +1,13 @@
+<!-- res/drawable/rounded_background.xml -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape>
+            <corners android:radius="160dp"/> <!-- Same radius as the rounded corners drawable -->
+        </shape>
+    </item>
+    <item>
+        <bitmap
+            android:gravity="center"
+            android:src="@drawable/bg" /> <!-- Replace with your image resource -->
+    </item>
+</layer-list>
